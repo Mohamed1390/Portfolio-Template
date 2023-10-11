@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(231, 228, 228);
+}
+/* Start Nav */
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    /* border-bottom: 5px solid rgba(0, 0, 0, 0.1); */
+    box-shadow: 0px 0px 10px gray;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.navbar a {
+    text-decoration: none;
+}
+.ul1 a {
+    margin-right: 30px;
+    color: gray;
+}
+.ul2 a {
+    margin-right: 25px;
+    color: black;
+}
+.active a {
+    font-weight: bold;
+    color: rgb(83, 82, 82);
+}
+.navbar h2 {
+    width: 25%;
+    margin-right: 80px;
+}
+.navbar h2 span {
+    color: gray;
+}
+/* End Nav */
+/* Start Main */
+.myname {
+    text-align: center;
+    margin: 15px;
+    padding-top: 30px;
+}
+.main-content {
+    /* margin-top: 20px; */
+    margin-left: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.service {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    /* margin-right: 80px; */
+    margin: 0px 80px 0;
+    width: 50%;
+}
+.service h3 {
+    margin: 0 20px 20px;
+}
+
+/* .icon h4 {
+    display: flex;
+    align-items: center;
+} */
+.icon .title {
+    display: flex;
+    align-items: center;
+}
+/* .title {
+    margin-top: 20px;
+} */
+.title h4 {
+    margin-bottom: 15px;
+}
+.icon p {
+    margin-left: 20px;
+    color: gray;
+    width: 100%;
+}
+/* .name h1 {
+    text-align: center;
+    margin-bottom: 50px;
+} */
+.Image1 {
+    border: 1px double rgba(0, 0, 0, 0.1);
+    border-radius: 10% 10% 0 0;
+    padding: 10px;
+    border-bottom: none;
+    margin-top: 25px;
+}
+.Image {
+    border: 1px double rgba(0, 0, 0, 0.1);
+    background-color: darkgray;
+    box-sizing: border-box;
+    border-radius: 10% 10% 0 0;
+    padding: 10px;
+    border-bottom: none;
+}
+.Image img {
+    width: 300px;
+    height: 350px;
+    border-radius: 50%;  
+}
+.info {
+    padding: 0 50px;
+    margin: 25px;
+}
+.info h3 , p {
+    margin-bottom: 30px;
+}
+.info p {
+    color: gray;
+}
+.info button {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    width: 130px;
+    margin-bottom: 30px;
+}
+.experience {
+    display: flex;
+    margin-top: 20px;
+}
+.experience h4 {
+    margin-bottom: 10px;
+}
+.experience h6 {
+    color: gray;
+}
+.years {
+    margin-right: 25px;
+}
+/* End Main */
